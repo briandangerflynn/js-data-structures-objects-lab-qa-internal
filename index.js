@@ -3,21 +3,9 @@ const driver = {name:"dave"};
 
 const updateDriverWithKeyAndValue = function(driver, key, value){
   const newDriver = Object.assign({}, driver)
-  driver[cat] = dog
+  driver[key] = value
   return newDriver;
 };
-
-
-// function nondestructivelyUpdateObject(obj, key, value) {
-//   const newObj = { ...obj };
- 
-//   newObj[key] = value;
- 
-//   return newObj;
-// }
-
-
-
 
 
 const destructivelyUpdateDriverWithKeyAndValue = function(driver,key,value){
