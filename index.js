@@ -7,7 +7,6 @@ const updateDriverWithKeyAndValue = function(duck, cat, dog){
   return newDriver;
 };
 
-updateDriverWithKeyAndValue(driver, address, "1 broadway pl.")
 
 // function nondestructivelyUpdateObject(obj, key, value) {
 //   const newObj = { ...obj };
