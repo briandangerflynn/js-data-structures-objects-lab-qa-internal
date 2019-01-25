@@ -6,6 +6,18 @@ const updateDriverWithKeyAndValue = function(driver, key, value){
   return newDriver;
 };
 
+// function nondestructivelyUpdateObject(obj, key, value) {
+//   const newObj = { ...obj };
+ 
+//   newObj[key] = value;
+ 
+//   return newObj;
+// }
+
+
+
+
+
 const destructivelyUpdateDriverWithKeyAndValue = function(driver,key,value){
   driver[key] = value;
   return driver;
