@@ -1,9 +1,9 @@
 // Write your solution in this file!
 const driver = {name:"dave"};
 
-const updateDriverWithKeyAndValue = function(duck, key, value){
-  const newDriver = Object.assign({}, driver})
-  driver[key] = value
+const updateDriverWithKeyAndValue = function(duck, cat, dog){
+  const newDriver = Object.assign({}, duck})
+  driver[cat] = value
   return newDriver;
 };
 
